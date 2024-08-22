@@ -1,0 +1,167 @@
+/* DONT DELETE THIS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* WRITE YOUR CODE BELOW */
+
+body {
+  width: 100vw;
+}
+
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffce33;
+  box-sizing: border-box;
+  padding: 30px 10px;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.alt-header__column {
+  font-size: 18px;
+}
+
+.alt-header input {
+  position: absolute;
+  width: 90%;
+  height: 40px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  border: none;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+.alt-header input:focus {
+  outline: none;
+}
+
+.alt-header input::placeholder {
+  opacity: 0.2;
+}
+
+.alt-header .fa-magnifying-glass {
+  position: absolute;
+  top: 90%;
+  right: 5%;
+  opacity: 0.1;
+}
+
+.main-screen {
+  padding: 10px 10px;
+}
+
+.category {
+  padding: 30px 0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.today-book {
+  width: 100%;
+  display: flex;
+}
+.today-book__picture {
+  background-color: gray;
+  width: 130px;
+  height: 180px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.description {
+  opacity: 0.2;
+  margin-bottom: 10px;
+}
+
+.grade {
+  font-size: 13px;
+  color: #ffce33;
+}
+
+.grade:nth-child(3) {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.grade i {
+  padding: 0px 1px;
+}
+
+.grade i:last-child {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.hashtags {
+  display: flex;
+}
+
+.hashtags span {
+  display: block;
+  background-color: #f7f7f7;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.bookmark {
+  padding: 10px 13px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffce33;
+  margin-right: 20px;
+}
+
+.book-now {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+}
+
+.top-adventures {
+  display: flex;
+}
+
+.top-adventure {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-adventure__picture {
+  background-color: gray;
+  width: 80px;
+  height: 120px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.popular-authors {
+  display: flex;
+}
+
+.popular-authors__picture {
+  background-color: gray;
+  width: 120px;
+  height: 140px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.popular-authors .info {
+  width: 55%;
+}
